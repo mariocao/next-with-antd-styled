@@ -1,3 +1,5 @@
+import Page from "components/Page";
+
 import {
   Form,
   Select,
@@ -7,23 +9,15 @@ import {
   Slider,
   Button
 } from "antd";
-import styled from "styled-components";
 
 const FormItem = Form.Item;
 const Option = Select.Option;
 
-const MyInput = styled.div`
-  padding: 0.5em;
-  margin: 0.5em;
-  color: palevioletred;
-  background: papayawhip;
-  border: none;
-  border-radius: 3px;
-`;
-
 export default () => (
-  <div>
-    <div style={{ marginTop: 100 }}>
+  <Page title="Index">
+    <div style={{ margin: 50 }}>
+      <h1>Ant design sample components</h1>
+      <br />
       <Form layout="horizontal">
         <FormItem
           label="Input Number"
@@ -91,11 +85,8 @@ export default () => (
           <Button size="large" style={{ marginLeft: 8 }}>
             Cancel
           </Button>
-          <MyInput>
-            <p>Styled component</p>{" "}
-          </MyInput>
         </FormItem>
       </Form>
     </div>
-  </div>
+  </Page>
 );
