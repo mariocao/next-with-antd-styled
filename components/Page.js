@@ -29,7 +29,7 @@ const Content = styled.div`
   grid-area: content;
   justify-items: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 60px;
 `;
 
 export default ({ children, title }) => (
