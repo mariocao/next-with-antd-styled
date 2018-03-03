@@ -22,8 +22,8 @@ padding-left: 10px;
 `;
 
 const Title = styled.h1`
- font-size: 36px;
- margin-bottom: 0px;
+  font-size: 36px;
+  margin-bottom: 0px;
 `;
 
 export default ({ children }) => (

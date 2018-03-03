@@ -27,12 +27,15 @@ const Title = styled.h1`
 class Main extends React.Component {
   render() {
     return (
-      <BackgroundImage>
-        <Title>
-          Welcome to our<br />Landing page!
-        </Title>
-        <SampleForm />
-      </BackgroundImage>
+      <main>
+        <BackgroundImage>
+          <Title>
+            Welcome to our<br />Landing page!
+          </Title>
+          <SampleForm />
+        </BackgroundImage>
+        <Techs />
+      </main>
     );
   }
 }
