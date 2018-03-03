@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
           <link
             rel="shortcut icon"
             type="images/x-icon"
-            href="/static/favicon.png"
+            href="/static/favicon.ico"
           />
           {this.props.styleTags}
           <style dangerouslySetInnerHTML={{ __html: styles }} />
