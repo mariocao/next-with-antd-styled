@@ -17,12 +17,12 @@ const Logo = styled.img`
 class Features extends React.Component {
   render() {
     return (
-      <section>
+      <section style={{ borderTop: "1px solid #c1ebf5" }}>
         <FlexList>
-          <Logo style={{height: "100px"}} src="static/img/nextjs.png" />
-          <Logo src="static/img/react.png" />
-          <Logo src="static/img/antd.png" />
-          <Logo src="static/img/styled.png" />
+          <Logo style={{ height: "100px" }} src="static/img/logos/nextjs.png" />
+          <Logo src="static/img/logos/react.png" />
+          <Logo src="static/img/logos/antd.png" />
+          <Logo src="static/img/logos/styled.png" />
         </FlexList>
       </section>
     );
