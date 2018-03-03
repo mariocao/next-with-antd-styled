@@ -3,15 +3,14 @@ import styled from "styled-components";
 
 const FormItem = Form.Item;
 
-const Subtitle = styled.h2`
+const Subtitle = styled.h3`
   padding: 20px;
   text-align: center;
   font-size: 26px;
   line-height: 32px;
-  text-shadow: 0px 1px 3px rgba(0,0,0,0.25);
-    color: #fff;
-  font-family: "Flama Light", "proxima-nova", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
 `;
 
