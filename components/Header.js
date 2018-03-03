@@ -26,16 +26,29 @@ const Title = styled.h1`
   margin-bottom: 0px;
 `;
 
+const ForkMe = styled.img`
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+`;
+
 export default ({ children }) => (
   <Header>
     <div>
       <Icon type="rocket" style={{ fontSize: 36, color: "#fa8c16" }} />
     </div>
-    <Title>Acme Inc.</Title>
+    <Title>Rocket Inc.</Title>
     <span>
       <Badge dot>
         <Avatar shape="circle" icon="user" />
       </Badge>
     </span>
+    <a href="https://github.com/mariocao/next-with-antd-styled">
+      <ForkMe
+        src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
+        alt="Fork me on GitHub"
+      />
+    </a>
   </Header>
 );
