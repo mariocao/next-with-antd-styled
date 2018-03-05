@@ -1,10 +1,19 @@
 {
-  "name": "with-ant-design-custom-theme",
+  "name": "next-with-antd-styled",
   "author": {
-    "name" : "Mario Cao"
+    "name": "Mario Cao"
   },
+  "keywords": [
+    "next.js",
+    "next",
+    "react",
+    "antd",
+    "ant-design",
+    "styled-components",
+    "custom",
+    "boilerplate"
+  ],
   "version": "1.0.0",
-  "license": "ISC",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
