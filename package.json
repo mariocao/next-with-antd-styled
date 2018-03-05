@@ -1,5 +1,8 @@
 {
   "name": "with-ant-design-custom-theme",
+  "author": {
+    "name" : "Mario Cao"
+  },
   "version": "1.0.0",
   "license": "ISC",
   "scripts": {
